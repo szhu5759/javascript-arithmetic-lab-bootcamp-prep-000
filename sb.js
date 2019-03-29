@@ -1,8 +1,5 @@
-q = Math.random()
-
-function preserveDecimal(n) {
-  return parseFloat(n)
+log();
+var log = function() {
+  console.log(greeting);
+  var greeting = 'Hello!';
 }
-
-console.log("The number that is randomly generated is: " + q)
-console.log("After we preserve the decimal it will be: " + preserveDecimal(q))
