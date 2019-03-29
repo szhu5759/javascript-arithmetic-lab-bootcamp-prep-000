@@ -4,3 +4,4 @@ function myFunction() {
 }
 
 myFunction()
+console.log(y)
