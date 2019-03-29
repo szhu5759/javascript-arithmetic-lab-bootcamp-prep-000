@@ -1,6 +1,9 @@
-function myFunction() {
-  y = 2;
-  console.log(y);
-}
+function outerFunction() {
+  var innerVariable = "I'm sort of a secret.";
 
-myFunction()
+  return function innerScope() {
+    var inaccessible = "Nothing can touch me.";
+
+    return innerVariable;
+  }
+}
